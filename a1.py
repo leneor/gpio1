@@ -59,7 +59,7 @@ def lightNumber(m):
             GPIO.output(chan_list[7-l],1)
     time.sleep(5)
 
-lightNumber(255)
+lightNumber(243)
 
 
 
