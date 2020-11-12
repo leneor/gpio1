@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 import time
-
+#its better to shit and be late than come on time and shit under yourself
 GPIO.cleanup()
 chan_list = [24, 25, 8, 7, 12, 16, 20, 21]
 
@@ -60,6 +60,7 @@ def lightNumber(m):
     time.sleep(5)
 
 lightNumber(243)
+print("спалахуйка")
 
 
 
